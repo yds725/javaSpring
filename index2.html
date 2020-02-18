@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="registerForm" action="memberProc.jsp" accept-charset="UTF-8" method="post">
+	 	<table>
+	 		<tr>
+	 			<th width="130">아이디:</th>
+	 			<td> <input type="text" name="id"> </td>					 		
+	 		</tr>
+	 		<tr>
+	 			<th width="130">이름:</th>
+	 			<td> <input type="text" name="name"> </td>					 		
+	 		</tr>
+	 		<tr>
+	 			<th width="130">비밀번호:</th>
+	 			<td> <input type="password" name="password"> </td>					 		
+	 		</tr>
+	 		<tr>
+	 			<th width="130">비밀번호 확인:</th>
+	 			<td> <input type="password" name="password2"> </td>					 		
+	 		</tr>
+	 		<tr>
+	 			<th width="130">E-MAIL:</th>
+	 			<td> <input type="email" name="email"> </td>					 		
+	 		</tr>
+	 		
+	 		<tr>
+	 			<th width="130">전화번호:</th>
+	 			<td> 
+	 				<input type="tel" name="phone" >
+	 			</td>					 		
+	 		</tr>
+	 		
+	 		<tr>
+	 			<th>깃헙 주소:</th> 
+			<td><input type="url" name="gitaddr"></td>		 		
+	 		</tr>
+	 		
+	 		<tr>
+	 			<th>직업:</th> 
+	 			<td>
+					학생 <input id="job" type="radio" name="job" value="학생"  /> 
+					직장인 <input id="job" type="radio" name="job" value="직장인"  /> 
+					주부 <input id="job" type="radio" name="job" value="주부"  />
+					기타 <input id="job" type="radio" name="job" value="기타"  />
+				</td>  		
+	 		</tr>
+	 		
+	 		<tr>
+	 			<th>관심영역:</th> 
+	 			<td>
+					영화 <input id="interest" type="checkbox" name="interest" value="영화"   />
+					운동 <input id="interest" type="checkbox" name="interest" value="운동"   />
+					자기계발 <input id="interest" type="checkbox" name="interest" value="자기계발"   />
+					게임 <input id="interest" type="checkbox" name="interest" value="게임"   />
+				</td>  		
+	 		</tr>
+	 		
+	 		<tr>
+	 			<td colspan="2" style="padding-left: 150px">
+	 				<br>
+	 				<input type="submit" value="회원가입" onclick="#" />
+	 				<input type="reset" value="취소"/>
+	 			</td>
+	 		</tr>
+	 		
+	 	</table>
+	</form>
+</body>
+</html>

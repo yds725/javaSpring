@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>회원가입 페이지</title>
+</head>
+<body>
+	<form class="register_form" action="newMember.jsp" method="POST">
+		<h2>환엽합니다. 회원가입해주십쇼.</h2>
+		<div>
+			아이디:	<input id="username" type="text" name="username" placeholder="원하는 아이디를 입력해수십시요." size="50" required /><br>
+			이름:		<input id="fullname" type="text" name="fullname" placeholder="이름을 입력해주세요" size="50" /><br>
+			비밀번호:	<input id="password" type="password" name="password" size="50" required /><br>
+			비밀번호 확인:	<input id="password2" type="password" name="password2" size="50" required /><br>
+			이메일:	<input id="email" type="email" name="email" placeholder="이메일을 입력해주세요" size="50"  /><br>
+			전화번호:	<input id="phone" type="tel" name="telnumber" placeholder="전화번호를 입력해주세요" size="50"  /><br>
+			github(blog)주소:		<input id="github" type="url" name="github" placeholder="깃헙 주소를 입력해주세요" size="50"  /><br>
+			직업 : 학생 <input id="job" type="radio" name="job" value="학생"  /> 
+			직장인 <input id="job" type="radio" name="job" value="직장인"  /> 
+			주부 <input id="job" type="radio" name="job" value="주부"  />
+			기타 <input id="job" type="radio" name="job" value="기타"  /> 
+			<br>
+			관심영역 : 영화 <input id="interest" type="checkbox" value="영화"   />
+			운동 <input id="interest" type="checkbox" value="운동"   />
+			자기계발 <input id="interest" type="checkbox" value="자기계발"   />
+			게임 <input id="interest" type="checkbox" value="게임"   />
+			<br>
+			<br>
+			<button type="submit" value="register" onclick="#">회원가입 </button> <button type="submit" value="cancel">취소</button>
+			
+		</div>
+		
+	</form>
+</body>
+</html>
